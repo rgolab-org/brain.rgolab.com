@@ -1,5 +1,5 @@
 /.idea/
 /node_modules/
-/brain/.obsidian/
-/brain/.vitepress/cache/
-/brain/.vitepress/dist/
+/docs/.obsidian/
+/docs/.vitepress/cache/
+/docs/.vitepress/dist/
