@@ -2,3 +2,4 @@
 /node_modules/
 /brain/.obsidian/
 /brain/.vitepress/cache/
+/brain/.vitepress/dist/
