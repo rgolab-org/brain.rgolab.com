@@ -5,10 +5,10 @@ export default defineConfig({
   title: "brain.rgolab.com",
   description: "",
   themeConfig: {
-    docFooter: {
-      next: false,
-      prev: false,
-    },
+    // docFooter: {
+    //   next: false,
+    //   prev: false,
+    // },
     externalLinkIcon: true,
     aside: true,
     outline: 1,
@@ -44,14 +44,23 @@ export default defineConfig({
         text: 'CTFNot.es',
         link: '/ctfnotes',
         collapsible: true,
-        collapsed: true,
+        collapsed: false,
         items: [
           {
-            text: 'CTF2023',
-            collapsed: true,
+            text: 'CTF\'s 2024',
+            collapsed: false,
             items: [
-              { text: 'test', link: '/link'},
-              { text: 'test', link: '/link'}
+              {
+                text: 'IrisCTF2024',
+                collapsed: true,
+                items: [
+                  { text: 'Not Just Media', link: '/ctfnot.es/IrisCTF2024/not-just-media' },
+                  { text: 'Skat\'s Network History', link: '/ctfnot.es/IrisCTF2024/skats-network-history' },
+                  { text: 'Skat\'s SD Card', link: '/ctfnot.es/IrisCTF2024/skats-sd-card' },
+                  { text: 'What\'s My Password', link: '/ctfnot.es/IrisCTF2024/whats-my-password' },
+                  { text: 'Buzzbuzz', link: 'ctfnot.es/IrisCTF2024/buzzbuzz'}
+                ]
+              },
             ]
           }
         ]
