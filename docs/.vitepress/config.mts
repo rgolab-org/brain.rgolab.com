@@ -29,8 +29,9 @@ export default defineConfig({
       {
         text: 'Tools',
         items: [
-          { text: 'Apps', link: '/apps' },
-          { text: 'Hardware', link: '/hardware' }
+          { text: 'Apps', link: '/tools/apps' },
+          { text: 'Hardware', link: '/tools/hardware' },
+          { text: 'Shortcuts', link: '/tools/shortcuts' }
         ]
       },
       {
@@ -47,6 +48,19 @@ export default defineConfig({
         collapsed: false,
         items: [
           {
+            text: 'CTF\'s 2023',
+            collapsed: false,
+            items: [
+              {
+                text: 'PotluckCTF2023',
+                collapsed: true,
+                items: [
+                  { text: 'Hunkgry Helmsman', link: '/ctfnot.es/2023/PotluckCTF/hungry-helmsman' }
+                ]
+              },
+            ]
+          },
+          {
             text: 'CTF\'s 2024',
             collapsed: false,
             items: [
@@ -54,11 +68,11 @@ export default defineConfig({
                 text: 'IrisCTF2024',
                 collapsed: true,
                 items: [
-                  { text: 'Not Just Media', link: '/ctfnot.es/IrisCTF2024/not-just-media' },
-                  { text: 'Skat\'s Network History', link: '/ctfnot.es/IrisCTF2024/skats-network-history' },
-                  { text: 'Skat\'s SD Card', link: '/ctfnot.es/IrisCTF2024/skats-sd-card' },
-                  { text: 'What\'s My Password', link: '/ctfnot.es/IrisCTF2024/whats-my-password' },
-                  { text: 'Buzzbuzz', link: 'ctfnot.es/IrisCTF2024/buzzbuzz'}
+                  { text: 'Not Just Media', link: '/ctfnot.es/2024/IrisCTF/not-just-media' },
+                  { text: 'Skat\'s Network History', link: '/ctfnot.es/2024/IrisCTF/skats-network-history' },
+                  { text: 'Skat\'s SD Card', link: '/ctfnot.es/2024/IrisCTF/skats-sd-card' },
+                  { text: 'What\'s My Password', link: '/ctfnot.es/2024/IrisCTF/whats-my-password' },
+                  { text: 'Buzzbuzz', link: 'ctfnot.es/2024/IrisCTF/buzzbuzz'}
                 ]
               },
             ]

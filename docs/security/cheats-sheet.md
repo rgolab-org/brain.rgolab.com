@@ -1,6 +1,6 @@
 # expose local port to remote (like ngrok)
-https://tunnel.pyjam.as/
-https://gitlab.com/pyjam.as/tunnel
+* https://tunnel.pyjam.as/
+* https://gitlab.com/pyjam.as/tunnel
 
 Start tunnel:
 ```bash
@@ -10,6 +10,8 @@ Stop tunnel:
 ```bash
 wg-quick down ./tunnel.conf
 ```
+
+
 # curl URL globbing
 https://everything.curl.dev/cmdline/globbing
 
@@ -17,7 +19,6 @@ If no command injection but we can control url, `file` and `%` is blocked on WAF
 ```bash
 curl http://host/curl?url=[f-f][i-i][l-l][e-e]:///app/flag.txt`
 ```
-
 #bypass #waf #curl
 
 # get files if browser doesn't exist on the machine
@@ -46,7 +47,7 @@ fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt file.zip
 #password #cracking #zip #archive #fcrackzip
 
 # python subprocess command injection
-Using `shell=True` is dangerous because it propagates current shell settings and variables.
+Using `shell=True` is dangerous because it propagates current shell settings and variables.
 
 ```python
 import subprocess  
@@ -108,9 +109,9 @@ tmux ls
 #tmux #terminal
 
 # strace
-`strace -ff -s 10000 -e execve -tt ./app`
+`strace -ff -s 100 -e execve -tt ./app`
 `-ff` means follow child process
-`-s 10000` show strings shorter than 1000
+`-s 100` show strings shorter than 100
 `-e param` find function which is used
 `-tt` show time
 `-p pid` attach to the process
