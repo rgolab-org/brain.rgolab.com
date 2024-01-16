@@ -26,6 +26,3 @@ Additionally, I'm using [Hyperkey](https://hyperkey.app/) for mapping `⇪` to `
 * `⇪P`/`⌃⎇⌘P` - translate clipboard text to polish
 * `⇪S`/`⌃⎇⌘S` - activate scanning by using iPhone
 * `⌃⎇O` - OCR to clipboard
-
-# Stream Deck
-asdf
