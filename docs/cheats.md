@@ -1,27 +1,40 @@
-# expose local port to remote (like ngrok)
-* https://tunnel.pyjam.as/
-* https://gitlab.com/pyjam.as/tunnel
+# Cheats
+The place where I note useful cheats.
+
+
+# Expose local port to the internet
 
 Start tunnel:
 ```bash
 curl https://tunnel.pyjam.as/8080 > tunnel.conf && wg-quick up ./tunnel.conf
 ```
+
 Stop tunnel:
 ```bash
 wg-quick down ./tunnel.conf
 ```
 
+* https://tunnel.pyjam.as/
+* https://gitlab.com/pyjam.as/tunnel
 
-# curl URL globbing
-https://everything.curl.dev/cmdline/globbing
+#tunnel #ngrok #pyjam
+
+
+# URL globbing with curl
 
 If no command injection but we can control url, `file` and `%` is blocked on WAF we can bypass:
+
 ```bash
 curl http://host/curl?url=[f-f][i-i][l-l][e-e]:///app/flag.txt`
 ```
+
+* https://everything.curl.dev/cmdline/globbing
+
 #bypass #waf #curl
 
-# get files if browser doesn't exist on the machine
+
+# Download files if browser doesn't exist
+
 ```bash
 function __wget() {
 	read proto server path <<<$(echo ${1//// })
@@ -39,14 +52,18 @@ function __wget() {
 
 #wget #download #bash #function #curl #get
 
-# unzip cracking
+
+# Cracking ZIP archive
+
 ```bash
 fcrackzip -u -D -p /usr/share/wordlists/rockyou.txt file.zip
 ```
 
 #password #cracking #zip #archive #fcrackzip
 
-# python subprocess command injection
+
+# Python subprocess command injection
+
 Using `shell=True` is dangerous because it propagates current shell settings and variables.
 
 ```python
@@ -84,12 +101,16 @@ os.spawnve(os.P_WAIT, "/bin/bash", ["-c", user_input], os.environ)
 
 #python #commandinjection
 
-# double dash in bash
-A double dash (`--`) is used in most Bash built-in commands and many other commands to signify the end of command options, after which only positional arguments are accepted.
+
+# Double dash in bash
+
+A double dash (`--`) is used to signify the end of command options, after which only positional arguments are accepted.
 
 #bash
 
+
 # tmux
+
 [https://gist.github.com/andreyvit/2921703](https://gist.github.com/andreyvit/2921703)
 ```bash
 tmux new -s NAME
@@ -108,50 +129,59 @@ tmux ls
 
 #tmux #terminal
 
+
 # strace
+
 `strace -ff -s 100 -e execve -tt ./app`
-`-ff` means follow child process
-`-s 100` show strings shorter than 100
-`-e param` find function which is used
-`-tt` show time
-`-p pid` attach to the process
+
+* `-ff` means follow child process
+* `-s 100` show strings shorter than 100
+* `-e param` find function which is used
+* `-tt` show time
+* `-p pid` attach to the process
+
+#strace
+
 
 # strace for multithread apps
+
 like normal but we have to restart childs on the beginning
 `kill -HUP pid` - send signal kill children and start again
 `kill -USR1 pid` - kill childrens after final their jobs
 
+#strace
+
+
 # pyjail
+
 ```python
 __import__("os").system("ls")
 ```
 
-# rest API security
-https://devszczepaniak.pl/projektowanie-rest-api/
-https://github.com/shieldfy/API-Security-Checklist/blob/master/README-pl.md
+#pyjail #python
+
+
+# REST API security
+
+* https://devszczepaniak.pl/projektowanie-rest-api/
+* https://github.com/shieldfy/API-Security-Checklist/blob/master/README-pl.md
 
 #rest #api #restapi
 
-# check open port via proxy
+
+# Scan open ports via proxy
+
 ```bash
 cat ports.txt | ffuf -w - -x http://proxy_server:proxy_port -u http://127.0.0.1:FUZZ
 ```
 
 #proxy #squid #portscan
 
-# proxy ssh via other ssh server
+
+# Proxy SSh via jumphost
+
 ```bash
 ssh -J <jump_host> user@server
 ```
 
-#proxy #ssh
-
-# some other cheat
-adfasdfasfdasdfas
-dfasdfas
-dfa
-
-#othertag
-
-# next cheat
-adfasdfs
+#proxy #ssh #jumphost

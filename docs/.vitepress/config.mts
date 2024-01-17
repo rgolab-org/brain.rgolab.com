@@ -5,6 +5,10 @@ export default defineConfig({
   title: "brain.rgolab.com",
   description: "",
   themeConfig: {
+    logo: '/rg.png',
+    search: {
+      provider: 'local'
+    },
     // docFooter: {
     //   next: false,
     //   prev: false,
@@ -35,11 +39,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Security',
-        items: [
-          { text: 'Cheats Sheet', link: '/security/cheats-sheet' },
-          { text: '...', link: '/hardware' }
-        ]
+        text: 'Cheats', link: '/cheats',
       },
       {
         text: 'CTFNot.es',
@@ -82,9 +82,9 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'instagram', link: 'insta' },
-      { icon: 'linkedin', link: 'https://linkedin' },
-      { icon: 'youtube', link: 'youtube' }
+      { icon: 'instagram', link: 'https://www.instagram.com/rafal.golab/' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/rgolab/' },
+      { icon: 'youtube', link: 'https://www.youtube.com/channel/UCy_9BJqiwJjz6ILztSp7HTA' }
     ]
   }
 })
