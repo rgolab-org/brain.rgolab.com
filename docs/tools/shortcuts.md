@@ -6,14 +6,18 @@ I have changed mapping `control` (`^`) to `command` (`⌘`) on my MacOS.
 
 Additionally, I'm using [Hyperkey](https://hyperkey.app/) for mapping `⇪` to `⌃⎇⌘`.
 
-## Legend:
+
+# Legend:
+
 * `⌘` - control
 * `⇧` - shift
 * `⎇` - option
 * `⌃` - command
 * `⇪` - caps lock (`⌃⎇⌘`)
 
-## My custom shortcuts
+
+# My custom shortcuts
+
 * `⌃⎇N` (triple tap back on iOS) - add new task in Notion (added by dictate text)
 * `⌃⇧X` - screenshot with modification (by CleanShot X - flameshot is an alternative)
 * `⌃⇧⌘4` - screenshot the selected area to the clipboard (without modifications)
