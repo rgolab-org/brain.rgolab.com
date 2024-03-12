@@ -1,6 +1,22 @@
 # Cheats
 The place where I note useful cheats.
 
+# Sync files and mount NFS on MacOS
+
+```bash
+rsync -r -v --progress -e ssh ${PATH} ${STORAGE_SERVER}:${REMOTE_PATH}
+sudo mount -o vers=4,resvport,rw,noowners -t nfs ${NFS_SERVER}:${REMOTE_PATH} /private/BACKUP
+```
+
+#rsync #backup #sync #nfs
+
+
+# No “Proceed Anyway” option on NET::ERR_CERT_INVALID in Chrome on MacOS
+
+Send from Chrome Console `sendCommand(SecurityInterstitialCommandId.CMD_PROCEED)`
+
+#ssl #chrome #browser
+
 
 # Expose local port to the internet
 
@@ -16,6 +32,7 @@ wg-quick down ./tunnel.conf
 
 * https://tunnel.pyjam.as/
 * https://gitlab.com/pyjam.as/tunnel
+* https://zgrok.io
 
 #tunnel #ngrok #pyjam
 
@@ -51,6 +68,16 @@ function __wget() {
 ```
 
 #wget #download #bash #function #curl #get
+
+
+# Upload files in the fly
+
+Useful when no space on device
+```bash
+tar -zcvs - ./ | ssh root@serwer 'cat >/file.tgz'
+```
+
+#upload #ssh #file
 
 
 # Cracking ZIP archive
@@ -120,11 +147,14 @@ tmux ls
 
 ```
 (Prefix) - CTRL+A
-(Prefix) + Hold <Arrows> - resize window
+(Prefix) + JKHL - resize window (up down left right)
 (Prefix) + <Arrows> - change focus window
-(Prefix) + % - split verticaly
-(Prefix) + " - spint horizontally
+(Prefix) + _ - split verticaly
+(Prefix) + | - spint horizontally
 (Prefix) + , - rename window
+(Prefix) + SHIFT + I - install plugins
+(Prefix) + R - reload config
+(Option) + Mouse - select and send to clipboard
 ```
 
 #tmux #terminal
@@ -178,10 +208,20 @@ cat ports.txt | ffuf -w - -x http://proxy_server:proxy_port -u http://127.0.0.1:
 #proxy #squid #portscan
 
 
-# Proxy SSh via jumphost
+# Proxy SSH via jumphost
 
 ```bash
 ssh -J <jump_host> user@server
 ```
 
 #proxy #ssh #jumphost
+
+
+# Extend disk space for Rancher Desktop Docker in MacOS
+
+```bash
+echo 'disk: "200GiB"' > ~/Library/Application\ Support/rancher-desktop/lima/_config/override.yaml
+rm -rf ~/Library/Application\ Support/rancher-desktop/lima/0
+```
+
+#docker #rancher #disk

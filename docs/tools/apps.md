@@ -8,6 +8,7 @@
 * [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) — Automation app for macOS & iOS
 * [Raycast](https://www.raycast.com/) — Advanced launcher for macOS
 * [Paste](https://pasteapp.io/) or [Maccy](https://maccy.app/) — Clipboard manager for macOS
+* [Mosaic](https://lightpillar.com/mosaic.html) and/or [Magnet](https://magnet.crowdcafe.com/) - organize windows
 * [Dropshare](https://dropshare.app/) — Drag and Drop for files
 * [Screenflow](https://www.telestream.net/screenflow/overview.htm) — Screen recording & editing app for macOS
 * [Obsidian](https://obsidian.md/) — Advanced note taking app
@@ -18,3 +19,6 @@
 * [IntelliJ](https://www.jetbrains.com/idea/) or [Visual Studio Code](https://code.visualstudio.com/) — IDE
 * [VMware Fusion](https://www.vmware.com/products/fusion.html) or [UTM](https://mac.getutm.app/) - for virtual machines 
 * [Arc](https://arc.net/) - my default browser
+* [Alice](https://www.heyalice.app/) - AI assistents app
+* [Perplexity](https://perplexity.ai/pro?referral_code=SQK8NKEZ)
+* [Setapp](https://go.setapp.com/invite/khnoy9lu)

@@ -40,6 +40,10 @@ export default defineConfig({
       },
       {
         text: 'Cheats', link: '/cheats',
+        items: [
+          { text: 'Useful cheats', link: '/cheats' },
+          { text: 'Security resources', link: '/security/resources' },
+        ]
       },
       {
         text: 'CTFNot.es',
