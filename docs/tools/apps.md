@@ -19,6 +19,10 @@
 * [IntelliJ](https://www.jetbrains.com/idea/) or [Visual Studio Code](https://code.visualstudio.com/) — IDE
 * [VMware Fusion](https://www.vmware.com/products/fusion.html) or [UTM](https://mac.getutm.app/) - for virtual machines 
 * [Arc](https://arc.net/) - my default browser
+* [Perplexity](https://perplexity.ai/pro?referral_code=SQK8NKEZ) - my search engine
+* [Setapp](https://go.setapp.com/invite/khnoy9lu) - many apps in one subscription
 * [Alice](https://www.heyalice.app/) - AI assistents app
-* [Perplexity](https://perplexity.ai/pro?referral_code=SQK8NKEZ)
-* [Setapp](https://go.setapp.com/invite/khnoy9lu)
+* [n8n](https://ebook.nocodeplatform.pl/) - automations (my robots)
+* [baserow.io](https://ebook.nocodeplatform.pl/) - database for automations
+* [ntfy](https://ebook.nocodeplatform.pl/) - push notifications
+* [Burp Suite](https://portswigger.net/burp/communitydownload) - proxy for debuging and analyse HTTP for apps and pages

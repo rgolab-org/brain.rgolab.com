@@ -24,13 +24,19 @@ Additionally, I'm using [Hyperkey](https://hyperkey.app/) for mapping `⇪` to `
 * `⇪U`/`⌃⎇⌘U` - upload file from clipboard to my uploads remote folder
 * `⌃⇧V` - run Paste (clipboard manager)
 * `⇪N`/`⌃⎇⌘N` - get clipboard and make a quick note in Notion
+* `⇪D`/`⌃⎇⌘D` - open Notion Quick Note page
 * `⇪V`/`⌃⎇⌘V` - enable / disable Voice Control
 * `⇪G`/`⌃⎇⌘G` - trigger G.A.N.D.A.L.F (my voiceover AI assistant)
-* `⌃⇧⎇⌘C` - center front window on the screen
-* `⇪P`/`⌃⎇⌘P` - translate clipboard text to polish
+* `⇪C`/`⌃⎇⌘C` - resize to FullHD and center front window on the screen
+* `⇪P`/`⌃⎇⌘P` - translate clipboard text to pl
 * `⇪S`/`⌃⎇⌘S` - activate scanning by using iPhone
+* `⎇⌘C` - center front window on the screen
 * `⌃⎇O` - OCR to clipboard
 * `⇧⌘E` - convert EUR to PLN
 * `⇧⌘V` - trigger `Paste` (clipboard manager)
 * `⌃⇧'` - wrap backticks
 * `⌃U` - generate UUID
+* `⎇⌘S` - speek text from clipboard
+* `⌃C` - copy content from selected file to clipboard
+* `⎇⌘D` - dicate and paste
+* `⌘⇥` - run ScreenBrush tool
