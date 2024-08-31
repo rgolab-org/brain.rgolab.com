@@ -48,7 +48,8 @@ and we see `article4.txt` was modified and flag was removed from there
 
 
 # Flag
-`irisctf{0h_cr4p_ive_left_my_k3ys_out_4nd_ab0ut}`
+<code v-if="false">`irisctf{0h_cr4p_ive_left_my_k3ys_out_4nd_ab0ut}`</code>
+<code v-else>`irisctf{0h_cr*************ut}`</code>
 
 # Hashtags
 #git #john #id_rsa #cracking #forensics

@@ -100,7 +100,8 @@ based on the data which we have from the mysql dump we can get the flag:
 
 
 # Flag
-`irisctf{h0neyt0kens_4rent_0nly_us3d_by_th3_wh1te_hat5}`
+<code v-if="false">`irisctf{h0neyt0kens_4rent_0nly_us3d_by_th3_wh1te_hat5}`</code>
+<code v-else>`irisctf{h0neyt0kens_4r************3d_by_th3_wh1te_hat5}`</code>
 
 # Hashtags
 #forensics

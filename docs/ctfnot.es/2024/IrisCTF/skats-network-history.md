@@ -45,7 +45,8 @@ we can start to search for `iris` in the whole decrypted traffic and we have the
 ![](https://rgolab.com/uploads/CACA93F6-C578-4C20-A107-D053D5654465.png)
 
 # Flag
-`irisctf{i_sp3nd_m0st_of_my_t1me_0n_th3_1nt3rnet_w4tch1ng_c4t_v1d30s}`
+<code v-if="false">`irisctf{i_sp3nd_m0st_of_my_t1me_0n_th3_1nt3rnet_w4tch1ng_c4t_v1d30s}`</code>
+<code v-else>`irisctf{i_sp3nd_m0st_of***********************tch1ng_c4t_v1d30s}`</code>
 
 # Hashtags
 #wireshark #decrypt #wpapsk #802.11 #pcap #network

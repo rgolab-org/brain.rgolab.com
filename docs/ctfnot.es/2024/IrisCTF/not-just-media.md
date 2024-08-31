@@ -51,7 +51,8 @@ Now we can try to open FakeFont by `FontForge` and try to preview tex using the 
 ![](https://rgolab.com/uploads/6FF807AF-CE77-4ECD-8885-CA3A1F0865C8.png)
 
 # Flag
-`irisctf{mkvm3rg3_my_b3l0v3d}`
+<code v-if="false">`irisctf{mkvm3rg3_my_b3l0v3d}`</code>
+<code v-else>`irisctf{mkvm3rg3_my_b*********d}`</code>
 
 # Hashtags
 #forensics #font #binwalk #mkvextract #mkvinfo

@@ -8,7 +8,8 @@ SQLi i password field
 ```
 
 # Flag
-`irisctf{my_p422W0RD_1S_SQl1}`
+<code v-if="false">`irisctf{my_p422W0RD_1S_SQl1}`</code>
+<code v-else>`irisctf{my_p4*************1}`</code>
 
 # Hashtags
 #sqli #go #web

@@ -79,6 +79,13 @@ export default defineConfig({
                   { text: 'Buzzbuzz', link: 'ctfnot.es/2024/IrisCTF/buzzbuzz'}
                 ]
               },
+              {
+                text: 'BGK',
+                collapsed: true,
+                items: [
+                  { text: 'All challenges', link: '/ctfnot.es/2024/BGK/notes' }
+                ]
+              }
             ]
           }
         ]

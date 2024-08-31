@@ -37,6 +37,6 @@ Additionally, I'm using [Hyperkey](https://hyperkey.app/) for mapping `⇪` to `
 * `⌃⇧'` - wrap backticks
 * `⌃U` - generate UUID
 * `⎇⌘S` - speek text from clipboard
-* `⌃C` - copy content from selected file to clipboard
+* `⌃⇧C` - copy content from selected file to clipboard
 * `⎇⌘D` - dicate and paste
 * `⌘⇥` - run ScreenBrush tool
